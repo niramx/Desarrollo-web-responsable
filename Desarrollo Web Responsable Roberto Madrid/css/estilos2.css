@@ -1,0 +1,173 @@
+header{
+	background-color: #5b7989;
+	text-align: center;
+
+	color: white;
+	text-shadow: 2px 2px #02010a;
+	padding: 3px 10px;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	transition: background 1s;
+	animation: Slide-in 1s;
+}
+body{
+	font-family: 'Dancing Script';
+  background: #02010a;
+	color: white;
+}
+.visitado{
+    font-size: 20px;
+		text-decoration: none;
+}
+div a{
+	color:white;
+	font-size: 20px;
+}
+section article{
+  background-color: #82c3a6;
+	text-align: center;
+	width: 100%;
+}
+
+#Logo img{
+	width: 40%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contenedor1, .contenedor2{
+	background-color: #d5c75f;
+	text-align: center;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6{
+	margin: 20px 5px 10px 5px;
+	color: #02010a;
+	shadow: 2px;
+}
+
+.c1 img:hover{
+	filter: blur(10px);
+}
+.c2:hover,.c4:hover,.c6:hover{
+	filter: grayscale(100%);
+}
+.c3 img:hover{
+	filter: sepia(90%);
+}
+footer{
+	font-family: 'Dancing Script';
+	background-color: #C6d5c5;
+	text-align:center;
+	color: black;
+	padding: 3px 10px;
+	border-radius: 0 0 10px 10px;
+}
+.contenedor3{
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width: 100%;
+}
+.contacto p, .rsociales a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+.rsociales img:hover{
+  text-align: center;
+	transform: rotate(10deg);
+	shadow: #82c3a6;
+
+}
+.derechos p{
+	text-align: center;
+	color: black;
+}
+@-webkit-keyframes Slide-in{
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
+}
+@media (max-width:900px){
+	header {
+		display: flex;
+		flex-direction: column;
+}
+.visitado{
+    font-size: 20px;
+		text-decoration: none;
+}
+div a{
+	color:white;
+	font-size: 20px;
+}
+	#logo img{
+			width: 80%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.contenedor1, .contenedor2{
+			background-color: #d5c75f;
+			margin: auto;
+			text-align: center;
+			text-decoration: underline;
+			display: flex;
+			flex-direction:column;
+			justify-content: space-around;
+			width: 100%;
+		}
+		.contenedor3{
+			margin: auto;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			width: 100%;
+		}
+#bloque1, #bloque2{
+			transition: transform 0.5s;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			color: black;
+			border: 1px;
+			width: 80%;
+		}
+}
+
+footer{
+	font-family: 'Dancing Script';
+	background-color: #C6d5c5;
+	text-align:center;
+	color: black;
+	padding: 3px 10px;
+	border-radius: 0 0 10px 10px;
+}
+.rsociales img:hover{
+	text-align: center;
+	transform: rotate(10deg);
+	shadow: #82c3a6;
+	border: 2px;
+
+}
+.derechos p, .contacto p{
+	text-align: center;
+	color: black;
+}
+#Retratos, #Paisajes img{
+	shadow: 2px #02010a;
+}

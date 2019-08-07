@@ -1,0 +1,160 @@
+header {
+	background-color: #5b7989;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px #02010a;
+	padding: 3px 10px;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	transition: background 1s;
+	animation: Slide-in 1s;
+}
+body{
+	color: white;
+	font-family: 'Dancing Script';
+	background: #02010a;
+	}
+
+.visitado{
+    font-size: 20px;
+		text-decoration: none;
+}
+div a{
+	color:white;
+	font-size: 20px;
+}
+section article{
+  background-color: #82c3a6;
+	text-align: center;
+	width: 100%;
+}
+#logo img{
+	width: 40%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contenedor1{
+	color: black;
+	background-color: #d5c75f;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width: 100%;
+}
+#bloque1, #bloque2{
+	transition: transform 0.5s;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+	border: 1px;
+	width: 100%;
+}
+#bloque1:hover{
+	text-align: center;
+	transform: rotate(10deg);
+	shadow: #82c3a6;
+	border: 2px;
+}
+#bloque2:hover{
+	text-align: center;
+	transform: translate(20px, -5px);
+	shadow: #82c3a6;
+	border: 2px;
+}
+footer{
+	font-family: 'Dancing Script';
+	background-color: #C6d5c5;
+	text-align:center;
+	color: black;
+	padding: 3px 10px;
+	border-radius: 0 0 10px 10px;
+}
+.contenedor2{
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width: 100%;
+}
+.contacto p, .rsociales a {
+	margin: auto;
+	text-align: left;
+	color: black;
+	text-decoration: none;
+}
+.rsociales img:hover{
+	text-align: center;
+	text-decoration: none;
+	transform: rotate(10deg);
+	shadow: #82c3a6;
+	border: 2px;
+	color: black;
+}
+.derechos p{
+	margin: auto;
+	text-align: center;
+	color: black;
+}
+
+@-webkit-keyframes Slide-in{
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
+}
+@media (max-width:900px){
+	header {
+		display: flex;
+		flex-direction: column;
+}
+.visitado{
+    font-size: 20px;
+		text-decoration: none;
+}
+div a{
+	color:white;
+	font-size: 20px;
+}
+	#logo img{
+		width: 80%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contenedor1{
+		background-color: #d5c75f;
+		margin: auto;
+		text-align: center;
+		text-decoration: underline;
+		display: flex;
+		flex-direction:column;
+		justify-content: space-around;
+		width: 100%;
+	}
+		.contenedor2{
+		margin: auto;
+		text-align: center;
+		display: flex;
+		flex-direction:column;
+		justify-content: space-around;
+		width: 100%;
+	}
+	#bloque1, #bloque2{
+		transition: transform 0.5s;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		color: black;
+		border: 1px;
+		width: 80%;
+	}
+	}
